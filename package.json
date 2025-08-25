@@ -1,0 +1,25 @@
+{
+  "name": "poc-mdx-type-checker-cli",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Karl Horky",
+  "main": "index.js",
+  "scripts": {
+    "check": "node mdx-tsc/index.ts"
+  },
+  "devDependencies": {
+    "@mdx-js/language-service": "^0.7.2",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "@volar/typescript": "^2.4.23",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.1",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}
