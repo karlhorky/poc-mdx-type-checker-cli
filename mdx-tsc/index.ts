@@ -42,13 +42,5 @@ runTsc(
       // a no-op.
       createMdxServicePlugin({ applyEdit: async () => {} }),
     ],
-    // restrict program creation to mdx files only
-    filterFile(fileName: string) {
-      // Only include .mdx files within the curriculum-versions
-      // package
-      return (
-        fileName.endsWith('.mdx') && fileName.includes('curriculum-versions')
-      );
-    },
   }),
 );
