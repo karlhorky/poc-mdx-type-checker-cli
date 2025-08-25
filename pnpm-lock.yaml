@@ -9,25 +9,25 @@ importers:
   .:
     devDependencies:
       '@mdx-js/language-service':
-        specifier: ^0.7.2
+        specifier: 0.7.2
         version: 0.7.2
       '@types/node':
-        specifier: ^24.3.0
+        specifier: 24.3.0
         version: 24.3.0
       '@types/react':
-        specifier: ^19.1.11
+        specifier: 19.1.11
         version: 19.1.11
       '@volar/typescript':
-        specifier: ^2.4.23
+        specifier: 2.4.23
         version: 2.4.23
       remark-frontmatter:
-        specifier: ^5.0.0
+        specifier: 5.0.0
         version: 5.0.0
       remark-gfm:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       typescript:
-        specifier: ^5.9.2
+        specifier: 5.9.2
         version: 5.9.2
 
 packages:
